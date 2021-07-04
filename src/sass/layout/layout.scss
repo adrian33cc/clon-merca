@@ -1,0 +1,27 @@
+$primaryColor:#fff159;
+
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+
+#layoutComponent{
+    display: flex;
+}
+
+#sidebarComponent{
+    background: $primaryColor;
+    height: 100vh;
+}
+
+#headerComponent{
+    background-color: $primaryColor;
+    width: 100%;
+    height: 6rem;
+    overflow: hidden;
+}
+#browserComponent{
+    display: flex;
+}
